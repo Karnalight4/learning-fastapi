@@ -13,4 +13,5 @@ jobs:
     steps:
       - name: pulling git repo
         uses: actions/checkout@v4
-      
+      - name: test
+        uses: echo "hello this is a test."
